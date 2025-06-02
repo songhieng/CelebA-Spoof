@@ -27,8 +27,13 @@ To run the liveness detection model using your webcam, simply execute:
 
 ```bash
 python run_liveness.py
-```
 
+# For a single image:
+python your_script.py /path/to/image.jpg
+
+# For a whole folder:
+python your_script.py /path/to/image_folder
+```
 This will open your webcam and display the liveness detection results in real-time. Press 'q' to quit.
 
 ### 2. Using a Single Image
