@@ -137,8 +137,6 @@ At the top level, the repository contains:
   * Periodically saves checkpoints and logs metrics (e.g., accuracy, EER).
 * **intra\_dataset\_code/inference.py**: Loads a saved checkpoint, runs the model over a test set (or validation set), and computes evaluation metrics—typically **Accuracy at the Equal Error Rate (EER)**, **Area Under the ROC Curve (AUC)**, and **EER** itself.
 
-![image](https://github.com/user-attachments/assets/ccece020-c7e1-4bae-ad31-b5032f6ff440)
-
 **Overview of AENet (Auxiliary Information Embedding Network)**
 AENet is the core model in CelebA-Spoof designed to solve face anti-spoofing by jointly learning three complementary tasks:
 
@@ -165,7 +163,7 @@ Below is a detailed, step-by-step walkthrough of AENet’s components and how th
 
 ## 1. High-Level Diagram Walkthrough
 
-![AENet Architecture](attachment:7270424e-34f5-48b1-bdeb-714aaa6b0bc5.png)
+![image](https://github.com/user-attachments/assets/ccece020-c7e1-4bae-ad31-b5032f6ff440)
 
 > **Figure 1.** Schematic of AENet.
 >
